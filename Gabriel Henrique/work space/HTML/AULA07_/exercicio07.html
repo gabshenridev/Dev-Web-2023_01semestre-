@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWEET AND LOVE</title>
+    <style>
+        .caixaformulario {
+            background-color: blue;
+            color: white
+        }
+
+        #range {
+            background-color: black;
+            color: brown;
+        }
+
+        .fieldset {
+
+            background-color: red;
+            color: white;
+        }
+        .rodape{
+            color: white;
+            background-color: black ;
+        }
+        .Sweetlove{ color: yellow;
+            background-color: pink;
+
+        }
+        .body{ color: palevioletred; background-color: palevioletred;
+
+        }
+    </style>
+
+</head>
+
+<body class="body">
+    <!-- formulario cadastro de clientes -->
+    <h1  class="Sweetlove"><img src="rosca.png" alt="Rosquinha" width="12%"> Sweet And Love </h1>
+    
+    <main>
+        <!-- informaçoes de cadastro -->
+
+        <form action="mailto:xxjbclashxx@gmai.com   ">
+            <fieldset class="caixaformulario">
+                <label for="#">Formulário de cadastro clientes</label><br>
+                <label for="#">Nome</label>
+                <input type="text" required="required"><br>
+                <label for="#">Idade</label>
+                <input type="number" max="90" required="required"><br>
+                <label for="#">email</label>
+                <input type="text" required="required"><br>
+                <hr>
+                <!-- indicaria a um amigo! -->
+                <label for="#">qual sua experiencia com a loja?indicaria a um amigo?</label><br>
+                <label for="#">sim</label>
+                <input type="range" id="range" min="0" max="1">
+                <label for="#">nao</label><br>
+                <hr>
+                <!-- produto que mais gostou -->
+                <label for="#">O que mais gostou na loja?(pode ser mais de uma opção)</label><br>
+                <input type="checkbox">
+                <label for="#">Doces</label><br>
+                <input type="checkbox">
+                <label for="#">Ambiente</label><br>
+                <input type="checkbox">
+                <label for="#">Atendimento</label><br>
+                <input type="checkbox">
+                <label for="#">Valores</label>
+                <br>
+                <hr>
+                <!-- ultimo produto comprado -->
+                <label for="#">Qual Sobremesa Ou Salgado Você comprou no seu ultimo pedido?</label><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Digite aqui seu ultimo pedido"
+                    required="required"></textarea>
+                <hr>
+                <label for="#">Em Qual Das Unidades Você Foi Atendido?</label><br>
+                <input type="text" list="Unidades" required="required">
+                <datalist id="Unidades">
+                    <option value="Aclimação">Loja01</option>
+                    <option value="Liberdade">Loja02</option>
+                    <option value="Tatuapé">Loja03</option>
+                    <option value="São Joaquim">Loja04</option>
+                </datalist>
+                <hr>
+                <input type="submit" value="enviar" href="mailto:xxjbclashxx@gmail.com">
+                <hr>
+                <h2>ACEITAMOS TODAS FORMAS DE PAGAMENTO(EXCETO BOLETO BANCARIO)</h2>
+                <article>
+                    <p>PIX<br>
+                        DINHEIRO<br>
+                        CARTÃO DE CREDITO<br>
+                        CARTÂO DE DEBITO<br>
+                        VALE ALIMENTAÇÃO<br></p>
+                </article>
+                <hr>
+                <fieldset>
+                    <h3>FALE CONOSCO!</h3>
+                    <article class="fieldset">
+                        <p> <a href="mailto:xxjbclashxx@gmail.com">NOSSO EMAIL</a><br>
+                            <a href="tel:55+11945285077">NOSSO TELEFONE</a>
+                        </p>
+                    </Fieldset>
+
+                </article>
+
