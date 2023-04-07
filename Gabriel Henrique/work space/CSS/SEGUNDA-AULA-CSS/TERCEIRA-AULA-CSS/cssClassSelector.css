@@ -1,0 +1,13 @@
+.classeGenerica {
+    background-color: black;
+    color: white;
+}
+p.classeEspecifica {
+    color: red;
+}
+.classe1{
+    color: rgb(255, 0, 0);
+}
+.classe2{
+    background-color: blue;
+}
