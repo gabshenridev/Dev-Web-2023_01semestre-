@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+
+* {
+    background-color: rgb(000,000, 255);
+    color: rgb(255, 255, 255);
+    font-family: 'Alkatra', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+}
+
+.sessão{
+    border: 1px solid;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.cabeçalho{
+text-align: center;
+
+}
+
+.titulos{
+font-size: 5vh;
+color: rgb(4, 255, 71)
+
+}
+
+h1, h2 {
+
+    font-size: 5vh;
+}
+
+nav li{
+    display: inline;
+}
+#tituloprincipal{
+   
+    text-shadow: 6px 3px 3px;
+    
+
+}
+.teste{
+    color: rgb(127,255,000);
+}
