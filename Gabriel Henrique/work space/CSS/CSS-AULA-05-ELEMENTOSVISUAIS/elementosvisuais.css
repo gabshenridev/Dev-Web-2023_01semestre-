@@ -1,0 +1,32 @@
+@charset "UTF-8" ;
+
+#h1{
+    color: rgb(255, 0, 0);
+    border: solid 2px #000000;
+    padding: 1em;
+    }
+
+img{
+
+width: 500px;
+height: 350px;
+}
+
+figure{ 
+    width: 700px;
+    border: solid 1px #000000;
+    padding: 1em;
+    text-align: center ;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+
+
+}
+.cordefundo{
+    background-color: #05b8ff;
+    background-image: url(artatack.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover   ;
+}
