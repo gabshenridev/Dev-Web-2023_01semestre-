@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+   padding: 0;   
+}
+body{
+background-color: black;
+margin: 0;
+padding: 0;
+
+}
+
+#cabeçalho{
+background-color:rgb(255, 9, 9);
+color: rgb(255, 255, 255);
+margin:0;
+padding:20px 20px;
+border: 1px solid #ffffff;
+font-size: 18px;
+line-height: 45px;
+
+}
+.ancora{
+text-decoration: none;
+border: 2px solid;
+border-radius: 5px;
+padding: 8px 5px;
+color: blue;
+margin-top: 20px;
+background-color: black;
+}
+.artigo{
+margin-top: 1cm;
+padding: 1cm 1cm;
+background-color: rgb(88, 90, 89);
+color: white;
+border: 0.1mm solid #ffffff;
+line-height: 2cm;
+}
+
+.sessao1{
+margin-top: 0.3em;
+padding: 2rem 2rem;
+color: #ffffff;
+background-color: rgb(11, 190, 255);
+line-height: 3em;
+border: 0.1vh solid #ffffff;
+}
+
+#segundaancora{
+    border: 1px solid #ffffff;
+    color:blue;
+    background-color: rgb(0, 0, 0);
+padding: 10px 10px;
+margin-top: 10px;
+text-decoration: none;
+border: 1px solid;
+border-radius: 8px;
+}
