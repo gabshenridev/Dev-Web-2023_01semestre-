@@ -1,0 +1,20 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 2em
+}
+#corpoform{
+border: 1px solid #000000;
+text-align: center;
+background-color: #ffffff;
+color: #000000;
+}
+.h1{ 
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+}
+.botaoenviar{
+ font-size: 18px;
+}
