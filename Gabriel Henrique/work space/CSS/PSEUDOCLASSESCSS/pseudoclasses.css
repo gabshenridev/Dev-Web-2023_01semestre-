@@ -1,0 +1,51 @@
+@charset "utf-8";
+*{
+    font-size: 40px;
+}
+p:first-child{
+    color: blue;
+}
+p:nth-child(3){
+    color: red;
+}
+p:last-child{
+    color: blueviolet;
+}
+a{
+    border: solid 1px;
+    border-radius: 10rem;
+    padding: 1rem;
+}
+a:hover{
+   background-color: blue;
+    color: yellow;
+}
+a:active{
+    color: chartreuse;
+}
+.p1::after{
+    content: "kkkkk segundo filho";
+    color:green;
+    background-color: black;
+}
+.p4::before{
+content: "quarto pivete";
+background-color: black;
+color: green;
+
+}
+::selection{
+    color: gold;
+    background-color: blue;
+}
+#div{
+    border: solid 1px;
+    width: 40%;
+    float: right;
+    background-color: black;
+    color: brown;
+
+}
+.list{
+    list-style: none;
+}
