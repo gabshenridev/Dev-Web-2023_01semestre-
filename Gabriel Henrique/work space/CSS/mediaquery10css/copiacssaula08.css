@@ -1,45 +1,45 @@
 @charset "UTF-8";
 
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-img{
-    width: 30%;
-    height: 30%;
+img {
+  width:10em;
+  height:7em;
 }
-body{
-    border: none;
-    width: 100%;
-    margin: auto;
-    padding: 0px;
-    font-size: 12px;
-    font-family: 'Alkatra', cursive;
-font-family: 'Kanit', sans-serif;
-font-family: 'Sedgwick Ave Display', cursive;
-}
+body {
 
-.juice{
-    border: solid 2px #fb0303;
-    height: 30%;
-    float: left;    
+  width:100em;
+  margin: auto;
+  padding: 10px;
+  font-size: 25px;
+  font-family: "Alkatra", cursive;
+  font-family: "Kanit", sans-serif;
+  font-family: "Sedgwick Ave Display", cursive;
 }
-
-
+.juicewrld{
+border: solid 2px #000;
+height: 15em;
+}
+.juicefloat{
+    float: left;
+}
 .xxxtentacion{
-    border: solid 2px blue;
-    height: 30%; 
-    float:right;
+    border: solid 2px #000;
+    height: 15em;
 }
-
-
+.xxxfloat{
+    float: right;
+}
 .ternorei{
-    border: solid 2px #0efa16;
-    height: 100px;
-    
+    border: solid 2px #000;
+    height: 20em;
 }
-@media(max-width:414px){
-    .juice .ternorei .xxxtentacion{
-        width: 100%;
+@media(max-width:414px;){
+    .juicewrld .xxxtentacion .ternorei{
+        width:100em ;
     }
-   }
+}
+
+
