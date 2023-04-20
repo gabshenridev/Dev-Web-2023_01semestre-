@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 30%;
+    height: 30%;
+}
+body{
+    border: none;
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    font-size: 12px;
+    font-family: 'Alkatra', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.juice{
+    border: solid 2px #fb0303;
+    height: 30%;
+    float: left;    
+}
+
+
+.xxxtentacion{
+    border: solid 2px blue;
+    height: 30%; 
+    float:right;
+}
+
+
+.ternorei{
+    border: solid 2px #0efa16;
+    height: 100px;
+    
+}
+@media(max-width:414px){
+    .juice .ternorei .xxxtentacion{
+        width: 100%;
+    }
+   }
