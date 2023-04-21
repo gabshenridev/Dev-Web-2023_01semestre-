@@ -5,41 +5,34 @@
   padding: 0px;
 }
 img {
-  width:10em;
-  height:7em;
+  width: 400px;
+  height: 300px;
 }
-body {
-
-  width:100em;
-  margin: auto;
-  padding: 10px;
-  font-size: 25px;
-  font-family: "Alkatra", cursive;
-  font-family: "Kanit", sans-serif;
-  font-family: "Sedgwick Ave Display", cursive;
+.float1 {
+  float: left;
 }
-.juicewrld{
-border: solid 2px #000;
-height: 15em;
+.float2 {
+  float: right;
 }
-.juicefloat{
-    float: left;
+.mainborder{
+ display: flex;
 }
-.xxxtentacion{
-    border: solid 2px #000;
-    height: 15em;
+ div{
+  border: solid 1px #000;
+  
 }
-.xxxfloat{
-    float: right;
+p{
+  font-size: 27px;
 }
-.ternorei{
-    border: solid 2px #000;
-    height: 20em;
+@media only screen and (max-width: 414px) {
+  .mainborder {
+    display: inline-block;
+    background-color: lightblue;
+    text-align: center;
+  }
+  img {
+    width: 200px;
+    height: 150px;
+  }
 }
-@media(max-width:414px;){
-    .juicewrld .xxxtentacion .ternorei{
-        width:100em ;
-    }
-}
-
 
