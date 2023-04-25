@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.container{
+
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows:100px 100px;
+    /* grid-template-areas: "filho1 filho1  filho2 filho2  " "filho3 filho3  filho4 filho4  "; */
+    /* column-gap: 10px; */
+    /* row-gap: 15px; */
+    grid-gap: 50px 15;
+    justify-items: end;
+
+}
+.item-1{
+    background: blue ;
+   border: 1px solid #000;
+    /* grid-area: filho1; */
+    width: 50px;
+ height: 50px;
+
+}
+.item-2{
+background:pink;
+border: 1px solid #000;
+ /* grid-area: filho2; */
+ width: 50px;
+ height: 50px;
+}
+.item-3{
+background: green ;
+border: 1px solid #000;
+ /* grid-area:filho3; */
+ width: 50px;
+ height: 50px;
+}
+.item-4{
+background: yellow;
+border: 1px solid #000;
+ /* grid-area:filho4; */
+ width: 50px;
+ height: 50px;
+
+}
