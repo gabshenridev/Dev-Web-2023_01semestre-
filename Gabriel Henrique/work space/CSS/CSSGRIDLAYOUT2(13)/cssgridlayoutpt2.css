@@ -1,90 +1,137 @@
 @charset "utf-8";
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(156, 154, 152);
+}
+.item {
+  border: solid 1px #000;
+}
 
-.item{
-    border: solid 1px #000;}
-
-.template1{
-    margin: 10px;
-    display: grid;
-    grid-template-columns: repeat(1 , 1fr);
-    grid-template-rows: repeat(1 , 1fr);
+.template1 {
+    background: brown   ;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 3px;
 }
-.itemplate1{
-  
-   grid-column-start: 1;
-    grid-row-start: 3 ;
-    grid-column-end: 2;
-    grid-row-end: 1 ;
-}
- 
-.itemplate2{
-   
-  
-}
-.template2{
-    margin: 10px;
-    display: grid;
-    grid-template-columns: repeat(1 , 1fr);
-    grid-template-rows: repeat(1 , 1fr);
-    gap: 3px;
-}
-.segundotemp1{
-    grid-column: ;
-}
-.segundotemp2{
-    grid-column: ;
-}
-.template3{
-    margin: 10px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1 , 1fr);
-    gap: 3px;
-}
-.terceirotemp1{
-    grid-column: ;
-}
-.terceirotemp2{
-    grid-column: ;
-}
-.template4{
-    margin: 10px;
-    display: grid;
-    grid-template-columns: repeat(1 , 1fr);
-    grid-template-rows: repeat(1 , 1fr);
-    gap: 3px;
-}
-.quartotemp1{
-    grid-column: ;
+.itemplate1 {
+  margin: 5px;
+  padding: 10px;
+  background: pink;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
-.quartotemp2{
-    grid-column: ;
+.itemplate2 {
+  margin: 5px;
+  padding: 10px;
+  background: violet;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
 }
-.template5{
+.itemplate3 {
+  margin: 5px;
+  padding: 10px;
+  background: yellow;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.template2 {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 3px;
+}
+.segundotemp1 {
+    margin: 5px;
+    background: yellowgreen;
+    grid-column: 1 /4;
+    grid-row: 1 /3;
+
+}
+.segundotemp2 {
+    margin: 5px;
+    background: gray;
+    grid-column: 4 /6;
+    grid-row: 1 /5;
+    
+}
+.segundotemp3{
+    margin: 5px;
+    background: red;
+    grid-column:1 /4 ;
+    grid-row: 3 /7;
+
+}
+.template3 {
     margin: 10px;
+    display: grid ;
+    grid-template-columns: repeat( 4 , 1fr) ;
+    grid-template-rows: repeat( 6, 1fr) ;
+
+}
+.terceirotemp1 {
+    margin:5px;
+    background: goldenrod;
+    grid-area: 1/3/3/5;
+}
+.terceirotemp2 {
+    margin:5px;
+    background: lightcoral;
+    grid-area: 4/2/3/4;
+}
+.terceirotemp3{
+    margin:5px;
+    background: indigo;
+grid-area: 7/1/1/1;
+}
+.template4 {
     display: grid;
-    grid-template-columns: repeat(1 , 1fr);
-    grid-template-rows: repeat(1 , 1fr);
-    gap: 2px;
+    grid-template-columns: repeat(4 , 1fr) ;
+    grid-template-rows: repeat(5 , 1fr);
+    gap: 10px;
 }
-.quintotemp1{
-    grid-column: ;
+.quartotemp1 {
+    margin: 5px;
+    grid-column: 1;
+    background: gold;
+    justify-self:stretch;
 }
-.quintotemp2{
-    grid-column: ;
+
+.quartotemp2 {
+    margin: 5px;
+    grid-column: 4;
+    grid-row: 3;
+    background: greenyellow;
+    justify-self:center;
 }
-.template6{
-    margin: 10px;
-    display: grid;
-    grid-template-columns: repeat(1) , 1fr);
-    grid-template-rows: repeat(1 , 1fr);
-    gap: 2px;
+.quartotemp3{
+    margin: 5px;
+    grid-column: 2;
+    grid-row: 5;
+    background: palegreen;
+    justify-self:flex-end;
+
+
 }
-.sextotemp1{
-    grid-column: ;
+.template5 {
 }
-.sextotemp2{
-    grid-column: ;
+.quintotemp1 {
+}
+.quintotemp2 {
+}
+.template6 {
+}
+.sextotemp1 {
+}
+.sextotemp2 {
 }
