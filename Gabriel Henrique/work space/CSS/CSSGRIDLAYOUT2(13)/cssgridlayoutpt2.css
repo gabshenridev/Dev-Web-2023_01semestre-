@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+.item{
+    border: solid 1px #000;}
+
+.template1{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    grid-template-rows: repeat(1 , 1fr);
+  gap: 3px;
+}
+.itemplate1{
+  
+   grid-column-start: 1;
+    grid-row-start: 3 ;
+    grid-column-end: 2;
+    grid-row-end: 1 ;
+}
+ 
+.itemplate2{
+   
+  
+}
+.template2{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    grid-template-rows: repeat(1 , 1fr);
+    gap: 3px;
+}
+.segundotemp1{
+    grid-column: ;
+}
+.segundotemp2{
+    grid-column: ;
+}
+.template3{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1 , 1fr);
+    gap: 3px;
+}
+.terceirotemp1{
+    grid-column: ;
+}
+.terceirotemp2{
+    grid-column: ;
+}
+.template4{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    grid-template-rows: repeat(1 , 1fr);
+    gap: 3px;
+}
+.quartotemp1{
+    grid-column: ;
+}
+
+.quartotemp2{
+    grid-column: ;
+}
+.template5{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    grid-template-rows: repeat(1 , 1fr);
+    gap: 2px;
+}
+.quintotemp1{
+    grid-column: ;
+}
+.quintotemp2{
+    grid-column: ;
+}
+.template6{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(1) , 1fr);
+    grid-template-rows: repeat(1 , 1fr);
+    gap: 2px;
+}
+.sextotemp1{
+    grid-column: ;
+}
+.sextotemp2{
+    grid-column: ;
+}
