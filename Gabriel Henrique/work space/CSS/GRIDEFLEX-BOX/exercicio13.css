@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+background-color: blue;
+
+}
+
+header{
+   display: flex;
+    background-image:url(./img/chainsawman.gridflexbox.jpg);
+ background-size:cover;
+ background-position: center;
+ align-items: center;
+ height: 250px;
+margin: 0 15em;
+}
+h1{
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+.container{
+    display: grid;
+    background-image: url(./img/chainsaw-main.webp);
+    background-size:cover;
+ background-position: center;
+ align-items: center;
+ align-items: center;
+    height:auto ;
+    margin: 0 15em;
+    padding: 1em;
+}
+.grid1{
+    align-items: center;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns:repeat(2 , 1fr) ;
+    grid-template-rows: repeat(1 , 1fr);
+    background: gainsboro;
+ }
+
+.conteudo p{
+    color: white;
+}
+.denji img{
+    height: 250px;
+}
+
